@@ -1,0 +1,15 @@
+.main-add {
+    grid-column: 2 / -1;
+    grid-row: 2;
+    text-align: center;
+    padding-top: 16px;
+    border-top: 1px solid var(--clr-gray-300);
+}
+
+.main-add__text {
+    font-style: italic;
+    font-weight: 400;
+    font-size: 1rem;
+    color: var(--clr-gray-700);
+    margin-bottom: 8px;
+}

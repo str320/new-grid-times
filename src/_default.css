@@ -1,0 +1,33 @@
+:root {
+    /* Colors */
+    --clr-white: hsl(0deg 0% 100%);
+    --clr-offblack: hsl(24deg 5% 6%);
+    --clr-gray-100: hsl(40deg 12% 95%);
+    --clr-gray-300: hsl(35deg 8% 80%);
+    --clr-gray-500: hsl(30deg 4% 60%);
+    --clr-gray-700: hsl(28deg 5% 40%); 
+    --clr-gray-900: hsl(24deg 6% 16%);
+    --clr-primary-dark-blue: hsl(224deg 30% 40%);
+    --clr-secondary-green: hsl(180deg 34% 37%);   
+    --clr-urgent-red: hsl(0deg 55% 54%); 
+    
+    /* Font Weight */
+    --fw-400: 400;
+    --fw-550: 550;
+    --fw-700: 700;
+
+    /* Font Family */
+    --ff-serif: "Crimson Pro", Georgia, serif;
+    --ff-sans-serif: "Helvetica Neue", Helvetica, "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", sans-serif;
+    --ff-logo: "Chomsky";
+
+    /* Container */
+    --container-lg: 1200px;
+    --container-md: 834px;
+    --container-sm: 414px;
+}
+
+body {
+    font-family: var(--ff-serif), var(--ff-logo), var(--ff-sans-serif);
+    background-color: var(--clr-gray-100);
+}

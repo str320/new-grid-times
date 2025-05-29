@@ -1,0 +1,7 @@
+@media (max-width: 68.75rem) {
+    .main-add {
+        grid-column: 1 / -1;
+        grid-row: 3 / 4;
+        border-top: none;
+    }
+}

@@ -1,0 +1,15 @@
+.container--lg {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.container--md {
+    max-width: 834px;
+    margin: 0 auto;
+}
+
+.container--sm {
+    max-width: 414px;
+    margin: 0 auto;
+}
+

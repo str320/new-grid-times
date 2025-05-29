@@ -1,0 +1,11 @@
+.main__board {
+    display: grid;
+    grid-template-columns: 5fr 4fr 3fr;
+    place-content: center;
+    gap: 16px;
+}
+
+.main__container {
+    padding-inline: 16px;
+    margin-top: 83px;
+}

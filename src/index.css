@@ -1,0 +1,44 @@
+/* Reset */
+@import url("./_base.css");
+
+/* Default */
+@import url("./_default.css");
+
+/* Container */
+@import url("../common.blocks/container/_container.css");
+
+/* Buttons */
+@import url("../common.blocks/button/_button.css");
+
+/* Navbar */
+@import url("../common.blocks/navbar/_navbar.css");
+
+/* Media */
+@import url("../common.blocks/navbar/media/_media.css");
+
+/* Main board */
+@import url("../common.blocks/main/main__board/_main__board.css");
+
+/* Main Left */
+@import url("../common.blocks/main/main-left/_main-left.css");
+
+/* Main Center */
+@import url("../common.blocks/main/main-center/_main-center__items.css");
+
+/* Main Right */
+@import url("../common.blocks/main/main-right/_main-right__items.css");
+
+/* Main Add */
+@import url("../common.blocks/main/main-add/_main-add.css");
+
+/* Media Main Board */
+@import url("../common.blocks/main/main__board/media/_media-main__board.css");
+
+/* Media Main Center */
+@import url("../common.blocks/main/main-center/media/_media-main-center.css");
+
+/* Media Main Right */
+@import url("../common.blocks/main/main-right/media/_media-main-right.css");
+
+/* Media Main Add */
+@import url("../common.blocks/main/main-add/media/_media-main-add..css");

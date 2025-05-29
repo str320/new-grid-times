@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+@font-face {
+  font-family: "Crimson Pro";
+  font-style: normal;
+  font-weight: 200 900;
+  font-display: "fallback";
+  src: 
+  url('./public/fonts/crimson-pro.woff2') format('woff2'),
+  url('./public/fonts/crimson-pro.woff') format('woff');
+}
+@font-face {
+    font-family: "Crimson Pro";
+    font-style: italic;
+    font-weight: 200 900;
+    font-display: "fallback";
+    src: 
+    url("./public/fonts/crimson-pro-italic.woff2") format("woff2"),
+    url("./public/fonts/crimson-pro-italic.woff") format("woff");
+}
+@font-face {
+    font-family: "Chomsky";
+    font-style: normal;
+    font-weight: 700;
+    font-display: "block";
+    src: 
+    url("./public/fonts/chomsky.woff2") format("woff2");
+}
+    </style>
+    <link rel="stylesheet" href="./src/index.css">
+    <title>New Times Grid</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container--lg header__container">
+            <!-- Grid -->
+            <nav class="navbar navbar__main-menu">
+                <!-- Item 1 -->
+                <div class="navbar__left-group">
+                    <i class="fas fa-search fa-2x navbar__search"></i>
+                    <i class="fas fa-bars fa-2x navbar__toggle"></i>
+                </div>
+                <!-- Item 2 -->
+                <div class="navbar__center-group">
+                    <h1 class="navbar__logo">New Grid Times</h1>
+                    <p class="navbar__text">Saturday,<time datetime="2024-6-17"> June 17th, 2024</time></p>
+                </div>
+                <!-- Item 3 -->
+                <div class="navbar__right-group">
+                    <i class="fas fa-user fa-1x navbar__user"></i>
+                    <button class="button button--primary" type="button">Subscribe</button>
+                    <small class="navbar__button-info"><a href="#" class="navbar__button-link">Already a subscriber?</a></small>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="main">
+            <div class="container--lg main__container">
+                <!-- Grid -->
+                 <div class="main__board">
+    
+                    <!-- Item 1 -->
+                    <article class="main-left">
+                        <picture class="main-left__image">
+                            <img src="./public/images/gamepad@2x.jpg" 
+         srcset="./public/images/gamepad.jpg, ./public/images/gamepad@2x.jpg"
+         alt="Gamepad" class="main-left__img">
+                        </picture>
+                        <div class="main-left__wrapper">
+                            <h2 class="main-left__title">Study: Video games improve reflexes and critical thinking</h2>
+
+                            <p class="main-left__text">SAN FRANCISCO — 24-year-old Anthony Vega enjoyed killing zombies, but didn’t realize that those skills were preparing him for work in the 21st century. It turns out, games like <span class="main-left__text--italic">Super Mario Brothers</span> and <span class="main-left__text--italic">Mega Zombie Bash 2099</span> have a surprising correlation with in-demand skills like critical reason-
+        ing and abstract thinking.</p>
+
+                            <p class="main-left__text main-left__text-elipsis">Researchers in the San Francisco think-tank <span class="main-left__text--italic">Bestcap Innovations</span> posit that time spent playing video games can be productive, in moderation. Active practice can boost reflexes, skills that will come in handy regardless of your view of the future. Even in the event of a zombie apocalypse, time spent in Mega Zombie Bash 2099 should have a powerful impact. posit that time spent playing video games can be productive, in moderation. Active practice can boost reflexes, skills that will come in handy regardless of your view of the future. Even in the event of a zombie apocalypse, time spent in Mega Zombie Bash 2099 should have a powerful impact.</p>
+
+                            <p class="main-left__text main-left__text-elipsis">Not everyone views it the same way, though. David Davidson Sr., professor at LIT University, tells The Grid that any benefits are overshadowed by the social isolation caused by long play sessions, alone in a dark basement. “We don’t celebrate the</p>
+                            <p class="main-left__text--small">
+                                <small>
+                                    <a href="" class="main-left__textlink">Continue Reading</a>
+                                </small>
+                            </p>
+                        </div>
+                    </article>
+    
+                    <!-- Item 2 -->
+                    <div class="main-center">
+                        <!-- Grid -->
+                        <div class="main-center__items">
+                            <article class="main-center__item">
+                                <picture class="main-center__image">
+                                    <img src="./public/images/politicians@2x.jpg" 
+                                    srcset="./public/images/politicians.jpg"
+                                    alt="Politicians" class="main-center__img">
+                                </picture>
+                                <div class="main-center__item-content">
+                                    <h2 class="main-center__item-title">Politicians scramble as court  overrules invalid legislation</h2>
+                                    <p class="main-center__item-text">In a surprising judgment that surprised no one, the New Amsterdam court of appeals finds Bill 234</p>
+                                </div>
+                            </article>
+                            <article class="main-center__item">
+                                <picture class="main-center__image">
+                                    <img src="./public/images/old-car@2x.jpg" 
+                                    srcset="./public/images/old-car.jpg"
+                                    alt="Politicians" class="main-center__img">
+                                </picture>
+                                <div class="main-center__item-content">
+                                    <h2 class="main-center__item-title">Vintage cars fetch a premium as car industry shifts gears</h2>
+                                    <p class="main-center__item-text">Lorem ipsum dolor latin words hello this paragraph needs to be 3 lines long at all times, with an ellipsis near the</p>
+                                </div>
+                            </article>
+                            <article class="main-center__item">
+                                <picture class="main-center__image">
+                                    <img src="./public/images/fashion@2x.jpg"
+                                    alt="Politicians" class="main-center__img">
+                                </picture>
+                                <div class="main-center__item-content">
+                                    <h2 class="main-center__item-title">This season’s hottest fashions unveiled amidst designer controversy</h2>
+                                    <p class="main-center__item-text">Lorem ipsum dolor latin words hello this paragraph needs to be 3 lines long at all times, with an ellipsis near the</p>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+
+                    <!-- Item 3 -->
+                    <div class="main-right">
+                        <!-- Grid -->
+                        <h2 class="main-right__items-header">Opinion</h2>
+                        <div class="main-right__items">
+                            <article class="main-right__item">
+                                <picture class="main-right__item-image">
+                                    <img src="./public/images/avatar-stephen-abebe.jpg" alt="user avatar" class="main-right__item-avatar">
+                                </picture>
+                                <div class="main-right__item-content">
+                                    <h3 class="main-right__item-name">Stephen Abebe</h3>
+                                    <p class="main-right__item-text">Humans need water to 
+    survive, and so do your 
+    potted plants!</p>
+                                </div>
+                            </article>
+    
+                            <article class="main-right__item">
+                                <picture class="main-right__item-image">
+                                    <img src="./public/images/avatar-mario-deluciano.jpg" alt="user avatar" class="main-right__item-avatar">
+                                </picture>
+                                <div class="main-right__item-content">
+                                    <h3 class="main-right__item-name">Mario DeLuciano</h3>
+                                    <p class="main-right__item-text">Sports! The secret to 
+    winning big??</p>
+                                </div>
+                            </article>
+    
+                            <article class="main-right__item">
+                                <picture class="main-right__item-image">
+                                    <img src="./public/images/avatar-alice-smith.jpg" alt="user avatar" class="main-right__item-avatar">
+                                </picture>
+                                <div class="main-right__item-content">
+                                    <h3 class="main-right__item-name">Alice Smith</h3>
+                                    <p class="main-right__item-text">Why I’ll never buy
+    groceries in-person again</p>
+                                </div>
+                            </article>
+    
+                            <article class="main-right__item">
+                                <picture class="main-right__item-image">
+                                    <img src="./public/images/avatar-rocko-pierce-stanley.jpg" alt="user avatar" class="main-right__item-avatar">
+                                </picture>
+                                <div class="main-right__item-content">
+                                    <h3 class="main-right__item-name">Rocko Pierce Stanley</h3>
+                                    <p class="main-right__item-text">Prediction: Disco is coming
+    back, with a vengeance</p>
+                                </div>
+                            </article>
+    
+                        </div>
+                    </div>
+
+                    <!-- Item 4 -->
+                     <article class="main-add">
+                        <h3 class="main-add__text">— Advertisement —</h3>
+                        <picture class="main-add__image">
+                            <img src="./public/ads/monkey@2x.png" alt="advertisement" class="main-add__img">
+                        </picture>
+                     </article>
+                 </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

@@ -1,0 +1,9 @@
+@media (max-width: 68.75rem) {
+    .main-left {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    }
+    .main-left__text-elipsis {
+        -webkit-line-clamp: 16;
+    }
+}
