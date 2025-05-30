@@ -46,3 +46,9 @@
         align-self: start;
     }
 }
+
+@media (max-width: 34.375rem) {
+        .main-right {
+        grid-row: 3 / 4;
+    }
+}

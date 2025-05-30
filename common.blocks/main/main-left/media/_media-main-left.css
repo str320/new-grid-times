@@ -2,9 +2,6 @@
     .main-left {
     grid-column: 1 / 2;
     }
-    .main-left__text-elipsis {
-        -webkit-line-clamp: 16;
-    }
 }
 
 @media (max-width: 34.375rem) {

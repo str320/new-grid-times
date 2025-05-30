@@ -10,7 +10,7 @@
 @media (max-width: 34.375rem) {
     .main-center {
         grid-column: 1 / -1;
-        grid-row: 2;
+        grid-row: 2 / 3;
         gap: 48px 0;
     }
     .main-center__item {

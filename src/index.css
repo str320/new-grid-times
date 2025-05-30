@@ -63,3 +63,21 @@
 
 /* Media Sports Items Right */
 @import url("../common.blocks/Specialty-block/right/media/_media-sports-items__right.css");
+
+/* Footer */
+@import url("../common.blocks/footer/_footer.css");
+
+/* Footer Wrapper */
+@import url("../common.blocks/footer/footer-items__wrapper/_footer-items__wrapper.css");
+
+/* Footer Menu Lists */
+@import url("../common.blocks/footer/footer-menu__lists/_footer-menu__lists.css");
+
+/* Footer Attribution */
+@import url("../common.blocks/footer/footer-attribution/_footer-attribution.css");
+
+/* Media Footer Items Wrapper */
+@import url("../common.blocks/footer/footer-items__wrapper/media/_media-footer-items__wrapper.css");
+
+/* Media Footer Attribution */
+@import url("../common.blocks/footer/footer-attribution/media/_media-footer-attribution.css");

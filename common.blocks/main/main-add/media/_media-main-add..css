@@ -11,3 +11,10 @@
         grid-row: 3;
     }
 }
+
+@media (max-width: 34.375rem) {
+        .main-add {
+        grid-column: 1 / -1;
+        grid-row: 4 / 5;
+    }
+}
