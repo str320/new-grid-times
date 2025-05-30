@@ -13,8 +13,8 @@
 /* Navbar */
 @import url("../common.blocks/navbar/_navbar.css");
 
-/* Media */
-@import url("../common.blocks/navbar/media/_media.css");
+/* Media Navbar*/
+@import url("../common.blocks/navbar/media/_media-navbar.css");
 
 /* Main board */
 @import url("../common.blocks/main/main__board/_main__board.css");
@@ -45,3 +45,21 @@
 
 /* Media Main Add */
 @import url("../common.blocks/main/main-add/media/_media-main-add..css");
+
+/* Speciality Block */
+@import url("../common.blocks/Specialty-block/_speciality.css");
+
+/* Speciatilty Grid */
+@import url("../common.blocks/Specialty-block/speciatilty__grid/_speciatilty__grid.css");
+
+/* Left */
+@import url("../common.blocks/Specialty-block/left/_stocks-items__left.css");
+
+/* Right */
+@import url("../common.blocks/Specialty-block/right/_sports-items__right.css");
+
+/* Media Stocks Items Left */
+@import url("../common.blocks/Specialty-block/left/media/_media-stocks-items__left.css");
+
+/* Media Sports Items Right */
+@import url("../common.blocks/Specialty-block/right/media/_media-sports-items__right.css");
