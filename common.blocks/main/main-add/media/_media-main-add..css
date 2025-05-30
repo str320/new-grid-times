@@ -1,7 +1,13 @@
 @media (max-width: 68.75rem) {
     .main-add {
         grid-column: 1 / -1;
-        grid-row: 3 / 4;
+        grid-row: 2;
         border-top: none;
+    }
+}
+
+@media (max-width: 34.375rem) {
+    .main-add {
+        grid-row: 3;
     }
 }

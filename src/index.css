@@ -40,5 +40,8 @@
 /* Media Main Right */
 @import url("../common.blocks/main/main-right/media/_media-main-right.css");
 
+/* Media Main Left */
+@import url("../common.blocks/main/main-left/media/_media-main-left.css");
+
 /* Media Main Add */
 @import url("../common.blocks/main/main-add/media/_media-main-add..css");

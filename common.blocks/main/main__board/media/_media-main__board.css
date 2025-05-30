@@ -1,5 +1,13 @@
 @media (max-width: 68.75rem) {
     .main__board {
         grid-template-columns: 2fr 1fr;
+        gap: 48px 16px;
+    }
+}
+
+@media (max-width: 34.375rem) {
+    .main__board {
+        grid-template-columns: 1fr;
+        gap: 48px 0;
     }
 }

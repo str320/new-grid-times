@@ -1,13 +1,19 @@
 @media (max-width: 68.75rem) {
     .main-center {
         grid-column: 2 / -1;
-        grid-row: 1 / 2;
     }
     .main-center__item {
         grid-template-columns: 1fr;
     }
-    .main-center__img {
-    width: 100%;
-    height: auto;
+}
+
+@media (max-width: 34.375rem) {
+    .main-center {
+        grid-column: 1 / -1;
+        grid-row: 2;
+        gap: 48px 0;
+    }
+    .main-center__item {
+    grid-template-columns: 120px 1fr;
     }
 }

@@ -18,12 +18,11 @@
     grid-template-columns: 1fr auto;
     gap: 24px;
     align-items: center;
-    padding-bottom: 16px;
-    border-bottom: 1px solid var(--clr-gray-300);
 }
 
-.main-right__item:nth-of-type(4n) {
-    border-bottom: none;
+.main-right__item:not(:last-of-type) {
+    padding-bottom: 16px;
+    border-bottom: 1px solid var(--clr-gray-300);
 }
 
 .main-right__item-image {
