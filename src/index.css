@@ -76,6 +76,9 @@
 /* Footer Attribution */
 @import url("../common.blocks/footer/footer-attribution/_footer-attribution.css");
 
+/* Media Footer Menu Lists */
+@import url("../common.blocks/footer/footer-menu__lists/media/_media-footer-menu__lists.css");
+
 /* Media Footer Items Wrapper */
 @import url("../common.blocks/footer/footer-items__wrapper/media/_media-footer-items__wrapper.css");
 
