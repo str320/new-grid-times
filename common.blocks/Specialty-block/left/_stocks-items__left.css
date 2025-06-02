@@ -1,0 +1,84 @@
+.stocks-items__left {
+    grid-column: 1 / 2;
+    display: grid;
+    gap: 24px 0;
+    padding-right: 16px;
+    border-right: 1px solid var(--clr-gray-300);
+}
+
+.stocks-items__details {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+.stocks-items__title {
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: var(--clr-gray-900);
+}
+
+.stocks-items__text {
+    justify-self: end;
+}
+
+.stocks-items__link {
+    font-family: "Helvetica";
+    font-weight: 700;
+    font-size: .75rem;
+    color: var(--clr-gray-900);
+    text-decoration: none;
+}
+
+.stocks-items__wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(min(178px, 100%), 1fr));
+    gap: 16px 16px;
+}
+
+.stocks-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--clr-white);
+    border-radius: 4px;
+    padding: 12px 12px 9px;
+}
+
+.stocks-item__details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 8px;
+}
+
+.stocks-item__title {
+    font-family: "Helvetica";
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 1;
+    color: var(--clr-gray-900);
+}
+
+.stocks-item__text {
+    font-family: "Helvetica";
+    font-weight: 400;
+    font-size: .875rem;
+    line-height: 1;
+    color: var(--clr-gray-700);
+}
+
+.stocks-item__content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 8px;
+}
+
+.stocks-item__numb {
+    font-family: "Helvetica";
+    font-weight: 700;
+    font-size: .875rem;
+    line-height: 1;
+    color: var(--clr-secondary-green);
+}

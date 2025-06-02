@@ -1,0 +1,25 @@
+.footer-attribution {
+    padding: 20px 0;
+    background-color: var(--clr-offblack);
+}
+
+.footer-attribution__container {
+    max-width: 1200px;
+    padding-inline: 16px;
+    margin: 0 auto;
+}
+
+.footer-logo {
+    font-family: "Chomsky";
+    font-weight: 400;
+    font-size: 2rem;
+    color: var(--clr-gray-100);
+}
+
+.footer-copyrights {
+    font-family: "Helevetica";
+    font-weight: 400;
+    font-size: .875rem;
+    color: var(--clr-gray-500);
+}
+

@@ -1,0 +1,8 @@
+@media (max-width: 68.75rem) {
+    .stocks-items__left {
+        grid-column: 1 / -1;
+        grid-row: 1 / 2;
+        padding-right: 0;
+        border-right: none;
+    }
+}

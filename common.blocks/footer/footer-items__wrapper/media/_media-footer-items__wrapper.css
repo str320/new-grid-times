@@ -1,0 +1,11 @@
+@media (max-width:  68.75rem) {
+    .footer-items__wrapper {
+        justify-content: center;
+    }
+}
+@media (max-width: 34.375rem) {
+    .footer-items__wrapper {
+        flex-direction: column;
+        justify-content: center;
+    }
+}

@@ -1,0 +1,29 @@
+.footer-menu__lists {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    padding-block: 32px 48px;
+}
+
+.footer-menu__list {
+    max-width: fit-content;
+}
+
+.footer-menu__list-title {
+    font-family: "Helevetica";
+    font-weight: 700;
+    font-size: 1.125rem;
+    color: var(--clr-gray-300);
+    margin-bottom: 8px;
+}
+
+.footer-menu__item {
+    list-style: none;
+}
+
+.footer-menu__item-link {
+    font-family: "Helevetica";
+    font-weight: 400;
+    font-size: 1rem;
+    color: var(--clr-gray-300);
+    text-decoration: none;
+}

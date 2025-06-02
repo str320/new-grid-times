@@ -1,0 +1,16 @@
+@media (max-width: 68.75rem) {
+    .footer-menu__lists {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 32px 0;
+    }
+}
+
+@media (max-width: 34.375rem) {
+    .footer-menu__lists {
+    justify-items: center;
+    grid-template-columns: 1fr;
+    }
+    .footer-menu__list {
+    text-align: center;
+    }
+}

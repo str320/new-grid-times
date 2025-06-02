@@ -1,0 +1,20 @@
+@media (max-width: 68.75rem) {
+    .sports-items__right {
+        grid-column: 1 / -1;
+        grid-row: 2 / 3;
+        padding-left: 0;
+        overflow: revert;
+    }
+}
+
+@media (max-width: 34.375rem) {
+    .sports-items__wrapper {
+        overflow-x: revert;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 16px;
+    }
+    .sports-item__img {
+        width: 100%;
+    }
+}
